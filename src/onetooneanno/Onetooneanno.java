@@ -42,6 +42,9 @@ public class Onetooneanno
    pp.setExpireDate(edate);
    pp.setPerson(p);
     sess.save(pp);
+        System.out.println("hi");
+        System.out.println("hello");
+        System.out.println("The end");
     sess.beginTransaction().commit();
    
 }
